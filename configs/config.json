@@ -1,0 +1,386 @@
+{
+  "tags": [
+    {
+      "alias": "Размер мебели",
+      "values": [
+        {
+          "value": "big",
+          "alias": "Большой"
+        },
+        {
+          "value": "medium",
+          "alias": "Средний"
+        },
+        {
+          "value": "small",
+          "alias": "Маленький"
+        }
+      ]
+    },
+    {
+      "alias": "Предназначен для",
+      "values": [
+        {
+          "value": "for_store",
+          "alias": "Хранения"
+        },
+        {
+          "value": "for_sit",
+          "alias": "Сидения"
+        },
+        {
+          "value": "for_lying",
+          "alias": "Лежания"
+        },
+        {
+          "value": "for_lie_on",
+          "alias": "Установки Предметов"
+        },
+        {
+          "value": "for_go_through",
+          "alias": "Прохода"
+        }
+      ]
+    },
+    {
+      "alias": "Сделан из",
+      "values": [
+        {
+          "value": "plastic",
+          "alias": "Пластика"
+        },
+        {
+          "value": "wooden",
+          "alias": "Дерева"
+        },
+        {
+          "value": "metal",
+          "alias": "Металла"
+        },
+        {
+          "value": "leather",
+          "alias": "Кожи"
+        },
+        {
+          "value": "wool",
+          "alias": "Ткань"
+        },
+        {
+          "value": "glass",
+          "alias": "Стекла"
+        }
+      ]
+    },
+    {
+      "alias": "Целевое помещение",
+      "values": [
+        {
+          "value": "for_office",
+          "alias": "Офис"
+        },
+        {
+          "value": "for_household",
+          "alias": "Бытовая"
+        },
+        {
+          "value": "for_gaming",
+          "alias": "Игровая"
+        },
+        {
+          "value": "for_public",
+          "alias": "Общественная"
+        }
+      ]
+    },
+    {
+      "alias": "Для людей возрастной категорий",
+      "values": [
+        {
+          "value": "for_kids",
+          "alias": "Дети"
+        },
+        {
+          "value": "for_teenagers",
+          "alias": "Подростки"
+        },
+        {
+          "value": "for_adults",
+          "alias": "Взрослые"
+        },
+        {
+          "value": "for_all",
+          "alias": "Для Всех"
+        }
+      ]
+    }
+  ],
+  "additionally": [
+    {
+      "value": "color",
+      "alias": "Цвет",
+      "values": [
+        {
+          "value": "red",
+          "alias": "Красный"
+        },
+        {
+          "value": "green",
+          "alias": "Зеленый"
+        },
+        {
+          "value": "blue",
+          "alias": "Синий"
+        },
+        {
+          "value": "yellow",
+          "alias": "Жёлтый"
+        },
+        {
+          "value": "white",
+          "alias": "Белый"
+        },
+        {
+          "value": "black",
+          "alias": "Чёрный"
+        },
+        {
+          "value": "pink",
+          "alias": "Розовый"
+        }
+      ]
+    }
+  ],
+  "furnitures": [
+    {
+      "name": "bed",
+      "alias": "Кровать",
+      "tags": [
+        "medium",
+        "for_lying",
+        "wooden",
+        "for_household",
+        "for_adults"
+      ]
+    },
+    {
+      "name": "bed for kids",
+      "alias": "Кровать детская",
+      "tags": [
+        "small",
+        "for_lying",
+        "wooden",
+        "for_household",
+        "for_kids"
+      ]
+    },
+    {
+      "name": "bed for teenagers",
+      "alias": "Кровать подрастковая",
+      "tags": [
+        "medium",
+        "for_lying",
+        "wooden",
+        "for_household",
+        "for_teenagers"
+      ]
+    },
+    {
+      "name": "bunk bed",
+      "alias": "Кровать двухъярусная",
+      "tags": [
+        "big",
+        "for_lying",
+        "wooden",
+        "for_household",
+        "for_teenagers"
+      ]
+    },
+    {
+      "name": "gaming bed",
+      "alias": "Кровать игровая",
+      "tags": [
+        "big",
+        "for_lying",
+        "wooden",
+        "for_gaming",
+        "for_all"
+      ]
+    },
+    {
+      "name": "wooden chair",
+      "alias": "Стул деревянная",
+      "tags": [
+        "small",
+        "for_sit",
+        "wooden",
+        "for_household",
+        "for_all"
+      ]
+    },
+    {
+      "name": "wooden chair",
+      "alias": "Стул деревянная",
+      "tags": [
+        "small",
+        "for_sit",
+        "wooden",
+        "for_household",
+        "for_adults"
+      ]
+    },
+    {
+      "name": "wooden chair for kids",
+      "alias": "Стул деревянная детская",
+      "tags": [
+        "small",
+        "for_sit",
+        "wooden",
+        "for_household",
+        "for_kids"
+      ]
+    },
+    {
+      "name": "wooden chair for teenagers",
+      "alias": "Стул деревянная подростковая",
+      "tags": [
+        "small",
+        "for_sit",
+        "wooden",
+        "for_household",
+        "for_teenagers"
+      ]
+    },
+    {
+      "name": "plastic chair",
+      "alias": "Стул пластиковая",
+      "tags": [
+        "small",
+        "for_sit",
+        "plastic",
+        "for_household",
+        "for_all"
+      ]
+    },
+    {
+      "name": "metal chair",
+      "alias": "Стул металическая",
+      "tags": [
+        "small",
+        "for_sit",
+        "metal",
+        "for_household",
+        "for_all"
+      ]
+    },
+    {
+      "name": "office chair",
+      "alias": "Стул офисная",
+      "tags": [
+        "small",
+        "for_sit",
+        "plastic",
+        "for_office",
+        "for_all"
+      ]
+    },
+    {
+      "name": "gaming chair",
+      "alias": "Стул игровая",
+      "tags": [
+        "small",
+        "for_sit",
+        "plastic",
+        "for_gaming",
+        "for_all"
+      ]
+    },
+    {
+      "name": "leather armchair",
+      "alias": "Кресло кожанная",
+      "tags": [
+        "medium",
+        "for_sit",
+        "leather",
+        "for_household",
+        "for_all"
+      ]
+    },
+    {
+      "name": "cotton armchair",
+      "alias": "Кресло тканевая",
+      "tags": [
+        "medium",
+        "for_sit",
+        "wool",
+        "for_household",
+        "for_all"
+      ]
+    },
+    {
+      "name": "leather sofa",
+      "alias": "Диван кожанная",
+      "tags": [
+        "big",
+        "for_sit",
+        "leather",
+        "for_household",
+        "for_all"
+      ]
+    },
+    {
+      "name": "leather sofa",
+      "alias": "Диван тканевая",
+      "tags": [
+        "big",
+        "for_sit",
+        "wool",
+        "for_household",
+        "for_all"
+      ]
+    },
+    {
+      "name": "wooden table",
+      "alias": "Стол деревянный",
+      "tags": [
+        "medium",
+        "for_store",
+        "wooden",
+        "for_household",
+        "for_all"
+      ]
+    },
+    {
+      "name": "glass coffee table",
+      "alias": "Журнальный стол стеклянный",
+      "tags": [
+        "small",
+        "for_store",
+        "glass",
+        "for_household",
+        "for_all"
+      ]
+    },
+    {
+      "name": "metal bookshelf",
+      "alias": "Книжная полка металлическая",
+      "tags": [
+        "big",
+        "for_store",
+        "metal",
+        "for_office",
+        "for_all"
+      ]
+    },
+    {
+      "name": "leather recliner",
+      "alias": "Кресло-реклайнер кожанное",
+      "tags": [
+        "medium",
+        "for_sit",
+        "leather",
+        "for_household",
+        "for_adults"
+      ]
+    }
+  ]
+}

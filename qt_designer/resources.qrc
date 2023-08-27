@@ -1,0 +1,26 @@
+<RCC>
+  <qresource prefix="images">
+    <file>Auezov-logotip-asyl.svg</file>
+    <file>auezov.jpg</file>
+  </qresource>
+  <qresource prefix="icons">
+    <file>icons/next.png</file>
+    <file>icons/refresh.png</file>
+    <file>icons/experiment_dark.png</file>
+    <file>icons/home _dark.png</file>
+    <file>icons/settings_dark.png</file>
+    <file>icons/experiment.png</file>
+    <file>icons/home.png</file>
+    <file>icons/settings.png</file>
+    <file>icons/burger-bar-white.png</file>
+    <file>icons/win_nav/restore-white.png</file>
+    <file>icons/win_nav/window_minimize-white.png</file>
+    <file>icons/win_nav/window-close-button-white.png</file>
+    <file>icons/win_nav/window-white.png</file>
+    <file>icons/burger-bar.png</file>
+    <file>icons/win_nav/restore.png</file>
+    <file>icons/win_nav/window.png</file>
+    <file>icons/win_nav/window_minimize.png</file>
+    <file>icons/win_nav/window-close-button.png</file>
+  </qresource>
+</RCC>
